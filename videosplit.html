@@ -1,38 +1,77 @@
-
 <html>
 <head>
 <style> 
-div {
+.up {
     width: 500px;
     height: 400px;
-    align: left:
-    background-color: yellow;
+   position: fixed;
+    top: 0;
+    right: 450px;
+   /* float: left; */
+    overflow: auto;
+    
+     /* align: left:inherit; */
+    /* background-color:#FFFF00 ;*/
     /* Rotate div */
-    -ms-transform: rotate(140deg); /* IE 9 */
-    -webkit-transform: rotate(140deg); /* Chrome, Safari, Opera */
-    transform: rotate(140deg);
+    -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
 }
-h1 {
+.right{
     width: 500px;
     height: 400px;
-    align: left:
-    background-color: yellow;
+     position: fixed;
+     top:230px;
+     right: 135px;
+    overflow: auto;
+     
+   /* background-color:#FFFF00 ; */
     /* Rotate div */
-    -ms-transform: rotate(40deg); /* IE 9 */
-    -webkit-transform: rotate(40deg); /* Chrome, Safari, Opera */
-    transform: rotate(40deg);
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+.left{
+	width: 500px;
+    height: 400px;
+    overflow: auto;
+    position: fixed;
+    bottom:230px;
+    left: 125;
+   /* background-color:#FFFF00 ; */
+    /* Rotate div */
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+	
+}
+.down{
+	width: 500px;
+    height: 400px;
+   overflow: auto;
+    position: fixed;
+    right: 500px;
+    bottom: 0;
+   /* background-color:#FFFF00 ; */
+    /* Rotate div */
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
 }
 </style>
 </head>
-
-
 <body>
-
-<div>
+<div class="up">
+<iframe width="450" height="315" title="1" src="https://www.youtube.com/embed/AZCCIGcVGyc" frameborder="0" allowfullscreen></iframe>
+</div>
+<div class="right">
 <iframe width="450" height="315" src="https://www.youtube.com/embed/AZCCIGcVGyc" frameborder="0" allowfullscreen></iframe>
 </div>
-<h1></h1>
+<div class="down">
 <iframe width="450" height="315" src="https://www.youtube.com/embed/AZCCIGcVGyc" frameborder="0" allowfullscreen></iframe>
-</h1>
+</div>
+<div class="left">
+<iframe width="450" height="315" src="https://www.youtube.com/embed/AZCCIGcVGyc" frameborder="0" allowfullscreen></iframe>
+</div>
 <body>
 </html>
